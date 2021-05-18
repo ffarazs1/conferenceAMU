@@ -1,0 +1,932 @@
+<!-- Section START-->
+<section id="section-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="banner-area">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex justify-content-between align-items-center breaking-news">
+                                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center animated pulse infinite">Latest Update</span></div>
+                                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+                                    <a href="#">Template and registration has been added</a>
+                                    <span class="dot"></span>
+                                </marquee>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h1 class="lg-title">
+                        ICETAMU 2021
+                    </h1>
+                    <p class="lead mt-3 big-txt">1<sup>st</sup> International Conference On Emerging Technologies<br> Aligarh Muslim University
+                    </p>
+                    <p class="lead big-date">19th - 20th December, 2021.
+                    </p>
+                    <h3 class="md-title animated pulse infinite" style="color:white;">Based on COVID-19 situation, conference can be done in virtual mode</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section END-->
+<br>
+<section id="section-countdown">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="countdown bg-bob shadow clearfix" >
+                    <div class="row">
+                        <div class="col-lg-12 p-0 col-md-6 ">
+                            <div class="counter-item border-0">
+                                <h1 class="days text-white" id="clock"></h1>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+<!-- slider_area_end -->
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Dec 19, 2021 23:59:59").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="clock"
+        document.getElementById("clock").innerHTML = days + "d " + hours + "h " +
+            minutes + "m " + seconds + "s ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("clock").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+
+
+    // Set the date we're counting down to
+    var yolo = new Date("Jun 1, 2021 23:59:59").getTime();
+    // Update the count down every 1 second
+    setInterval(function() {
+        // Get today's date and time
+        var zolo = new Date().getTime();
+
+
+        if (zolo >= yolo) {
+            document.getElementById("closed-text").innerHTML = "Paper Submission Closed";
+            document.getElementById('closed-date').style.display = 'none';
+        }
+    }, 1000);
+</script><!-- Section Start -->
+<section id="sponsors" class="section">
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-8 text-center">
+                <h2 class="mb-3">Organised By</h2>
+            </div>
+            <div class="col-lg-12">
+                <div class="text-center">
+                    <img src="images/organized.png" alt="" class="img-fluid"><br><br>
+                  
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section END -->
+
+<!-- Section START-->
+<section id="schedule-section bg-light" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-12">
+                <div class="section-heading">
+                    <h2 class="display-4">Main <span class="text-primary text-center">Topics of </span> Interest</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Security in Industry 4.0</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Security in Ambient, cloud & edge computing</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Security in Protocols & networking infrastructure</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Security in Governance, policy & compliance</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Blockchain & cryptology</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>DDoS & intrusion Detection/Prevention</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Security in Access control, authentication & authorization</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Security in Internet of Things (IoT)</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Security in Social media, mobile & web</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Security in Wireless & cellular communication</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Security Education, awareness & training</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Botnet & Malware</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Digital forensics & surveillance</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="core-schedule">
+                    <div>
+                        <h4><i class="ion-android-checkmark-circle text-secondary mr-3"></i>Data policy privacy & fake news
+                            Event Schedule
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section END--><style>
+.timeline {
+  position: relative;
+  width: 660px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 1em 0;
+  list-style-type: none;
+}
+
+.timeline:before {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  content: ' ';
+  display: block;
+  width: 6px;
+  height: 100%;
+  margin-left: -3px;
+  background: rgb(80,80,80);
+  background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+  background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  
+  z-index: 5;
+}
+
+.timeline li {
+  padding: 1em 0;
+}
+
+.timeline li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.direction-l {
+  position: relative;
+  width: 300px;
+  float: left;
+  text-align: right;
+}
+
+.direction-r {
+  position: relative;
+  width: 300px;
+  float: right;
+}
+
+.flag-wrapper {
+  position: relative;
+  display: inline-block;
+  
+  text-align: center;
+}
+
+.flag {
+  position: relative;
+  display: inline;
+  background: rgb(248,248,248);
+  padding: 6px 10px;
+  border-radius: 5px;
+  
+  font-weight: 600;
+  text-align: left;
+}
+
+.direction-l .flag {
+  -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+
+.direction-r .flag {
+  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+
+.direction-l .flag:before,
+.direction-r .flag:before {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  content: ' ';
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: -10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 4px solid rgb(255,80,80);
+  z-index: 10;
+}
+
+.direction-r .flag:before {
+  left: -40px;
+}
+
+.direction-l .flag:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+  border: solid transparent;
+  border-left-color: rgb(248,248,248);
+  border-width: 8px;
+  pointer-events: none;
+}
+
+.direction-r .flag:after {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+  border: solid transparent;
+  border-right-color: rgb(248,248,248);
+  border-width: 8px;
+  pointer-events: none;
+}
+
+.time-wrapper {
+  display: inline;
+  
+  line-height: 1em;
+  font-size: 0.66666em;
+  color: rgb(250,80,80);
+  vertical-align: middle;
+}
+
+.direction-l .time-wrapper {
+  float: left;
+}
+
+.direction-r .time-wrapper {
+  float: right;
+}
+
+.time {
+  display: inline-block;
+  padding: 4px 6px;
+  background: rgb(248,248,248);
+}
+
+.desc {
+  margin: 1em 0.75em 0 0;
+  
+  font-size: 0.99999em;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+.direction-r .desc {
+  margin: 1em 0 0 0.75em;
+}
+
+/* ================ Timeline Media Queries ================ */
+
+@media  screen and (max-width: 660px) {
+
+.timeline {
+ 	width: 100%;
+	padding: 4em 0 1em 0;
+}
+
+.timeline li {
+	padding: 2em 0;
+}
+
+.direction-l,
+.direction-r {
+	float: none;
+	width: 100%;
+
+	text-align: center;
+}
+
+.flag-wrapper {
+	text-align: center;
+}
+
+.flag {
+	background: rgb(255,255,255);
+	z-index: 15;
+}
+
+.direction-l .flag:before,
+.direction-r .flag:before {
+  position: absolute;
+  top: -30px;
+	left: 50%;
+	content: ' ';
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin-left: -9px;
+	background: #fff;
+	border-radius: 10px;
+	border: 4px solid rgb(255,80,80);
+	z-index: 10;
+}
+
+.direction-l .flag:after,
+.direction-r .flag:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: -8px;
+	height: 0;
+	width: 0;
+	margin-left: -8px;
+	border: solid transparent;
+	border-bottom-color: rgb(255,255,255);
+	border-width: 8px;
+	pointer-events: none;
+}
+
+.time-wrapper {
+	display: block;
+	position: relative;
+	margin: 4px 0 0 0;
+	z-index: 14;
+}
+
+.direction-l .time-wrapper {
+	float: none;
+}
+
+.direction-r .time-wrapper {
+	float: none;
+}
+
+.desc {
+	position: relative;
+	margin: 1em 0 0 0;
+	padding: 1em;
+	background: rgb(245,245,245);
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+	box-shadow: 0 0 1px rgba(0,0,0,0.20);
+	
+  z-index: 15;
+}
+
+.direction-l .desc,
+.direction-r .desc {
+	position: relative;
+	margin: 1em 1em 0 1em;
+	padding: 1em;
+	
+  z-index: 15;
+}
+
+}
+
+@media  screen and (min-width: 400px ?? max-width: 660px) {
+
+.direction-l .desc,
+.direction-r .desc {
+	margin: 1em 4em 0 4em;
+}
+
+}
+</style>
+<div class="section bg-light" data-aos="fade-up" id="submission">
+    <div class="container">
+        <div class="row section-heading justify-content-center">
+            <div class="col-md-8 ">
+                <div class="heading">
+                    <h2 class="display-4 mb-3 text-center"> Important Dates</h2>
+                </div>
+
+                <ul class="timeline">
+
+                    <!-- Item 1 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">10st Aug 2021</span>
+                                <span class="time-wrapper"><span class="time"></span></span>
+                            </div>
+                            <div class="desc text-danger">Submission Deadline</div>
+                        </div>
+                    </li>
+
+                    <!-- Item 2 -->
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">31st Oct, 2021</span>
+                                <span class="time-wrapper"><span class="time"></span></span>
+                            </div>
+                            <div class="desc text-danger">Notification of Acceptance</div>
+                        </div>
+                    </li>
+
+                    <!-- Item 3 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">15st November, 2021</span>
+                                <span class="time-wrapper"><span class="time"></span></span>
+                            </div>
+                            <div class="desc text-danger">Camera Ready Deadline</div>
+                        </div>
+                    </li>
+
+                     <!-- Item 2 -->
+                     <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">31st November, 2021</span>
+                                <span class="time-wrapper"><span class="time"></span></span>
+                            </div>
+                            <div class="desc text-danger">Registration</div>
+                        </div>
+                    </li>
+					
+					  <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">20th-22nd December, 2021</span>
+                                <span class="time-wrapper"><span class="time"></span></span>
+                            </div>
+                            <div class="desc text-danger">Paper Presentation</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div> <!-- .section --><section id="section-pricing" class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="section-heading">
+                    <h2 class="display-4">Conference Fees Rates</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="pricing-block p-5">
+                    <h4>Indians</h4>
+                    <h3 class="display-4">&#8377 8000</h3>
+                    <p class="mt-2"></p>
+                    <h4><i class="fa fa-check mr-2"></i>Students</h4>
+                </div>
+                <div class="pricing-btn">
+                    <a href="#" class="btn btn-hero">Register</a>
+                </div>
+            </div>
+			 <div class="col-lg-3 col-md-6">
+                <div class="pricing-block p-5">
+                    <h4>Indians</h4>
+                    <h3 class="display-4">&#8377 10000</h3>
+                    <p class="mt-2"></p>
+                    <h4><i class="fa fa-check mr-2"></i>Research Scholars / Academicians</h4>
+                </div>
+                <div class="pricing-btn">
+                    <a href="#" class="btn btn-hero">Register</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="pricing-block p-5">
+                    <h4>Indians</h4>
+                    <h3 class="display-4">&#8377 12000</h3>
+                    <p class="mt-2"></p>
+                    <h4><i class="fa fa-check mr-2"></i>Industry Professionals</h4>
+                </div>
+                <div class="pricing-btn">
+                    <a href="#" class="btn btn-hero">Register</a>
+                </div>
+            </div>
+        </div>
+		<br><br>
+	        <div class="row justify-content-center align-items-center">
+			 <div class="col-lg-3 col-md-6">
+                <div class="pricing-block p-5">
+                    <h4>International</h4>
+                    <h3 class="display-4">$ 250 </h3>
+                    <p class="mt-2"></p>
+                    <h4><i class="fa fa-check mr-2"></i>Students</h4>
+                </div>
+                <div class="pricing-btn">
+                    <a href="#" class="btn btn-hero">Register</a>
+                </div>
+            </div>
+			<div class="col-lg-3 col-md-6">
+                <div class="pricing-block p-5">
+                    <h4>International</h4>
+                    <h3 class="display-4">$ 350</h3>
+                    <p class="mt-2"></p>
+                    <h4><i class="fa fa-check mr-2"></i>Academicians</h4>
+                </div>
+                <div class="pricing-btn">
+                    <a href="#" class="btn btn-hero">Register</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="pricing-block p-5">
+                    <h4>International</h4>
+                    <h3 class="display-4">$ 450 </h3>
+                    <p class="mt-2"></p>
+                    <h4><i class="fa fa-check mr-2"></i>Industry</h4>
+                </div>
+                <div class="pricing-btn">
+                    <a href="#" class="btn btn-hero">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section Start -->
+<section id="section-counters" class="section">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5 col-md-4">
+                <div class="event-img">
+                    <div class="row">
+                        <div class="col-md-4">
+                        <img src="images/scopus.png" alt="" class="img-fluid img-style">
+
+                        </div>
+                        <div class="col-md-4">
+                        <img src="images/wos.png" alt="" class="img-fluid img-style">
+
+                        </div>
+                        <div class="col-md-4">
+                        <img src="images/ieee.jpg" alt="" class="img-fluid img-style">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-8">
+                <div class="event-text">
+                    <h4 class="display-4">
+                        Publication and indexing
+                    </h4>
+                    <p class="mt-4 mb-4">
+					Authors are invited to submit original, unpublished research manuscripts on the above topics.  Submissions must be done through Easychair. All papers will be reviewed by at least three members of the program committee, with a double-blind review process. Manuscripts for full papers should not exceed 8 single-spaced, double-column pages using 10-point size font on 8.5×11 inch pages (IEEE conference style), including references, figures, and tables. Manuscript for short papers should not exceed 4 single-spaced, double-column pages. All papers must be submitted electronically in PDF format. All accepted papers must be presented by one of the authors in order to be included in the proceedings and published in the IEEE Xplore Digital Library. Selected papers will be invited to submit an extended version in SCOPUS and SCIE indexed Journals.
+                    </p>
+
+                    <!--<a href="#" class="btn btn-hero">Learn More</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section END --><!DOCTYPE html>
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="6UksNimlKS9bUBlPBdlGqhc9etrS0uEeQMTBWd62">
+
+    <title>ICETAMU 2021</title>
+	
+	<link rel = "icon" href = "logo.png" type = "image/x-icon">
+
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Ionic Icon Css -->
+    <link rel="stylesheet" href="plugins/Ionicons/css/ionicons.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="plugins/animate-css/animate.css">
+    <!-- Font Awesome Icon Css -->
+    <link rel="stylesheet" href="plugins/font-awesome/all.css">
+    <!-- Magnify Popup -->
+    <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid] {display: none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+
+    <!-- Scripts -->
+    <script src="js/app.js" defer></script>
+</head>
+
+<body id="body">
+    <!--  preloader start -->
+    <div id="tb-preloader">
+        <div class="tb-preloader-wave"></div>
+    </div>
+    <!-- preloader end -->
+
+    <div x-data="{&quot;show&quot;:true,&quot;style&quot;:&quot;success&quot;,&quot;message&quot;:null}"
+            :class="{ 'bg-indigo-500': style == 'success', 'bg-red-700': style == 'danger' }"
+            style="display: none;"
+            x-show="show && message"
+            x-init="
+                document.addEventListener('banner-message', event => {
+                    style = event.detail.style;
+                    message = event.detail.message;
+                    show = true;
+                });
+            ">
+    <div class="max-w-screen-xl mx-auto py-2 px-3 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="w-0 flex-1 flex items-center min-w-0">
+                <span class="flex p-2 rounded-lg" :class="{ 'bg-indigo-600': style == 'success', 'bg-red-600': style == 'danger' }">
+                    <svg class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </span>
+
+                <p class="ml-3 font-medium text-sm text-white truncate" x-text="message"></p>
+            </div>
+
+            <div class="flex-shrink-0 sm:ml-3">
+                <button
+                    type="button"
+                    class="-mr-1 flex p-2 rounded-md focus:outline-none sm:-mr-2 transition ease-in-out duration-150"
+                    :class="{ 'hover:bg-indigo-600 focus:bg-indigo-600': style == 'success', 'hover:bg-red-600 focus:bg-red-600': style == 'danger' }"
+                    aria-label="Dismiss"
+                    x-on:click="show = false">
+                    <svg class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <header class="header-bar fixed-top bg-white">
+
+    <nav class="navbar navbar-expand-lg navbar-light transparent-black main-nav">
+        <div class="container">
+            <!--      LOGO BAR     -->
+            <a class="navbar-brand" href="index.html"><img class="nav-logo" src="images/logo.png" alt="Maxbeat" class="img-fluid"></a>
+            <!--      LOGO BAR     -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--  MAIN MENU  -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="about">
+                            <a class="dropdown-item" target="_blank" href="https://amu.ac.in/">Aligarh Muslim University</a>
+                            <a class="dropdown-item" target="_blank" href="https://www.amu.ac.in/department/computer-science">Department Of Computer Science</a>
+                            <a class="dropdown-item" target="_blank" href="https://ieeexplore.ieee.org/">IEEE Xplore</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="important" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Important Links
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="important">
+                            <a class="dropdown-item" href="index.html#submission">Dates</a>
+                            <a class="dropdown-item" href="submission.html">Submission Guidelines</a>
+                            <a class="dropdown-item" href="camera.html">Camera Ready Guidelines</a>
+                            
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="program.html">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="committee.html">Committee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+
+    
+
+
+
+    <footer class="text-center text-white" style="background-color: #caced1;">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Images -->
+    <section class="">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="images/ieee.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="images/logo.png"
+              class="w-50"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="images/scopus.png"
+              class="w-50"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        </div>
+    </section>
+    <!-- Section: Images -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-white" href="https://www.amu.ac.in/department/computer-science">Department Of Computer Science, Aligarh Muslim University</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="livewire/livewire41c3.js?id=936e5d0fb0b76b631ba7" data-turbo-eval="false" data-turbolinks-eval="false"></script><script data-turbo-eval="false" data-turbolinks-eval="false">if (window.livewire) {console.warn('Livewire: It looks like Livewire\'s @livewireScripts JavaScript assets have already been loaded. Make sure you aren\'t loading them twice.')}window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = '6UksNimlKS9bUBlPBdlGqhc9etrS0uEeQMTBWd62';/* Make sure Livewire loads first. */if (window.Alpine) {/* Defer showing the warning so it doesn't get buried under downstream errors. */document.addEventListener("DOMContentLoaded", function () {setTimeout(function() {console.warn("Livewire: It looks like AlpineJS has already been loaded. Make sure Livewire\'s scripts are loaded before Alpine.\n\n Reference docs for more info: http://laravel-livewire.com/docs/alpine-js")})});}/* Make Alpine wait until Livewire is finished rendering to do its thing. */window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};document.addEventListener("DOMContentLoaded", function () {window.livewire.start();});</script>
+    <script>
+    $(document).ready(function() {
+    $('.dropdown-toggle').hover(function() {
+        $('.dropdown-menu').addClass('show');
+    }, function() {
+        $(this).removeClass('show');
+    });
+});
+</script>
+</body>
+
+
+
+</html>
