@@ -1,0 +1,70 @@
+Sajid sir: The following changes are required-
+1. At home, the conference full name must be visible in center position like as follows-
+
+ECI 2021
+International Conference on Emerging Computational Intelligence
+December 19-20, 2021
+ 
+2. Based on COVID 19... remove this for now
+
+3. Then 214d 14h 8m 5s is ok.
+
+4. Replace Organised By with Conference Indexing
+
+5. We need the following tabs-
+
+Home
+About
+Conference Topics
+Conference Program 
+Committee 
+Special sessions 
+Important Dates
+Paper Submission
+Registration 
+Venue 
+Contact us
+
+6. In About, 
+ECI 2021
+Department of Computer Science 
+AMU
+
+7.
+[10:15 AM, 5/19/2021] Sajid sir: 7. In Conference Topic
+ Topics
+ Indexing
+
+8. In Conference Program 
+Speakers
+Invited lectures
+
+9. In Committee 
+Organizing Committee 
+Advisory Committee 
+Technical Program Committee 
+
+10. In special sessions 
+Machine Intelligence 
+Computational Intelligence 
+Soft computing 
+Natural Language Processing 
+Cloud Computing 
+
+11. Important 
+You already mentioned.
+
+12. Paper Submission 
+Provide here easyChair website link
+
+13. In Registration,
+
+Fee, you already mentioned.
+Mention here some dummy account number 
+The registration link ( Google form link will be provided later)
+
+14. Venue 
+Department address 
+
+15. Contact us
+Write Computer Science name and dummy contact numbers.
