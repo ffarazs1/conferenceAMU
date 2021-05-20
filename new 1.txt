@@ -9,6 +9,7 @@ December 19-20, 2021
 
 3. Then 214d 14h 8m 5s is ok.
 
+
 4. Replace Organised By with Conference Indexing
 
 5. We need the following tabs-
@@ -21,6 +22,7 @@ Committee
 Special sessions 
 Important Dates
 Paper Submission
+
 Registration 
 Venue 
 Contact us
@@ -29,6 +31,8 @@ Contact us
 ECI 2021
 Department of Computer Science 
 AMU
+
+
 
 7.
 [10:15 AM, 5/19/2021] Sajid sir: 7. In Conference Topic
@@ -44,12 +48,13 @@ Organizing Committee
 Advisory Committee 
 Technical Program Committee 
 
+
 10. In special sessions 
 Machine Intelligence 
-Computational Intelligence 
-Soft computing 
-Natural Language Processing 
-Cloud Computing 
+Computational Intelligence
+Soft computing
+Natural Language Processing
+Cloud Computing
 
 11. Important 
 You already mentioned.

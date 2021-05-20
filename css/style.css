@@ -1531,6 +1531,13 @@ Post Navigation
   border: 1px solid #ddd;
 }
 
+.nav-link{
+font-size: 12px !important;
+}
+.dropdown-item{
+font-size: 12px !important;
+}
+
 .blog-nav li.active {
   background: #ff007a;
   border-color: #ff007a;

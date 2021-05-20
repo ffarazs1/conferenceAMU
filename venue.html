@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
 	<meta charset="utf-8">
@@ -19,31 +20,6 @@
 	<!-- Slick Slider CSS -->
 	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
 	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-	<style>
-	.blue {
-		color: blue !important;
-	}
-	
-	.link-card {
-		border: 1px solid #d6d6d6;
-		margin: 10px;
-		padding: 5px;
-		min-height: 50px;
-	}
-	
-	.big {
-		font-size: 2.45rem;
-	}
-	
-	.anime {
-		width: 220px;
-		height: 220px;
-	}
-	
-	.faw_area {
-		margin-top: 120px;
-	}
-	</style>
 	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 	<style>
@@ -158,52 +134,52 @@
 			</div>
 		</nav>
 	</header>
-	<!-- faq_area_Start -->
-	<div class="faq_area">
+	<section class="contact-section">
 		<div class="container">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 			<div class="row">
-				<div class="col-xl-12 col-lg-12">
-					<div class="serction_title_large mb-95">
-						<h3 id="close-txt">
-                            IEEE Submission Guidelines
-                        </h3> </div>
+				<div class="col-12">
+					<h2 class="contact-title">Map</h2> </div>
+				<div class="col-lg-8" id="map" height="100%">
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly" async></script>
 				</div>
-			</div>
-			<div class="row" id="show" style="display: none;">
-				<div class="col-xl-12 col-lg-12">
-					<div class="link-card"> 1. Guidelines for authors can be found <a class="blue" target="_blank" href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/">here</a> </div>
-					<div class="link-card"> 2. Prepare your paper based on Springer <a class="blue" target="_blank" href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-letter.docx">Word format</a> or <a class="blue" target="_blank" href="http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/IEEEtran_HOWTO.pdf">LaTeX Package</a> or <a class="blue" target="_blank" href="https://www.ieee.org/conferences/publishing/templates.html">Full Details</a> </div>
-					<div class="link-card"> 3. Submit your paper online using <a class="blue" target="_blank" href="https://easychair.org/conferences/">ECI 2021 Easychair account.(TBD)</a> </div>
-					<div class="accordion">
-						<div class="link-card">
-							<div class="" id="heading_4">
-								<div class="collapsed" data-toggle="collapse" data-target="#collapse_4" aria-expanded="false" aria-controls="collapse_4"> 4. For submission, the types of papers accepted for publication should not exceed 8 pages. &#8377 1000 will be charged per extra page above 6 pages. </div>
-							</div>
+				<div class="col-lg-3 offset-lg-1">
+					<div class="media contact-info"> <span class="contact-info__icon"><i class="ti-home"></i></span>
+						<div class="media-body">
+							<h3>Department Of Computer Science</h3>
+							<p>Near Old Chungi, Aligarh Muslim University, Aligarh, Uttar Pradesh, India, 202002</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row" id="unshow" style="display: none;">
-				<div class="col-6 offset-4"> <img class="anime" src="images/page-gone.html" alt=""> </div>
+			<div class="d-none d-sm-block mb-5 pb-4">
+				<script>
+				// Initialize and add the map
+				function initMap() {
+					// The location of Uluru
+					const uluru = {
+						lat: 27.916573243355057,
+						lng: 78.07338129494512
+					};
+					// The map, centered at Uluru
+					const map = new google.maps.Map(document.getElementById("map"), {
+						zoom: 16,
+						center: uluru,
+					});
+					// The marker, positioned at Uluru
+					const marker = new google.maps.Marker({
+						position: uluru,
+						map: map,
+					});
+				}
+				</script>
 			</div>
 		</div>
-	</div>
-	<!-- faq_area_end -->
-	<script>
-	// Set the date we're counting down to
-	var aa = new Date("Jun 1, 2021 23:59:59").getTime();
-	// Update the count down every 1 second
-	setInterval(function() {
-		// Get today's date and time
-		var bb = new Date().getTime();
-		if(bb <= aa) {
-			document.getElementById('show').style.display = 'block';
-		} else {
-			document.getElementById('unshow').style.display = 'block';
-			document.getElementById("close-txt").innerHTML = "Submission closed";
-		}
-	}, 1000);
-	</script>
+	</section>
 	<footer class="text-center text-white" style="background-color: #caced1;">
 		<!-- Grid container -->
 		<div class="container p-4">
