@@ -331,7 +331,7 @@ header
   }
   nav.navbar.transparent-black li a {
     color: #222222 !important;
-    letter-spacing: 1.5px;
+    /*letter-spacing: 1.0px;*/
   }
 
   nav.navbar.transparent-black .logo-light {
@@ -473,18 +473,19 @@ header
   line-height: 20px;
 }
 
-.main-nav {
+/*.main-nav {
   padding: 20px 0px;
 }
+
 .main-nav ul {
   margin-left: 50px;
 }
 .main-nav ul li a {
   font-size: 16px;
-}
+}*/
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 1.4rem;
+  /*padding-right: 1.4rem;*/
   color: #222222;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -1532,8 +1533,9 @@ Post Navigation
 }
 
 .nav-link{
-font-size: 12px !important;
+font-size: 9px !important;
 }
+
 .dropdown-item{
 font-size: 12px !important;
 }
@@ -2455,7 +2457,3 @@ Responsive
 .big-date{
   color: rgb(113 0 78);
 }
-
-
-
-
