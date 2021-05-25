@@ -39,7 +39,6 @@ body, html {
 }
 
 a {
-  color: #222222;
   transition: 0.3s all;
 }
 a:hover {
@@ -109,7 +108,7 @@ p {
 
 .lead {
   line-height: 35px;
-  color: #006699;
+  color: lightgoldenrodyellow;
   font-weight: bold;
 }
 
@@ -132,30 +131,29 @@ p {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: green;
+  color: palegoldenrod;
 }
 
 /*-------------------------------
 Common
 -------------------------------*/
 .section {
-  padding: 90px 0px;
+  padding: 40px 0px;
 }
 
 .section-top {
-  padding-top: 90px;
+  padding-top: 50px;
 }
 
-.section-bottom {
-  padding-bottom: 90px;
+html {
+	scroll-behavior: auto;
 }
-
 .mb-30 {
   margin-bottom: 30px;
 }
 
 .section-heading {
-  margin-bottom: 75px;
+  margin-bottom: 30px;
 }
 .section-heading p {
   margin-top: 20px;
@@ -551,12 +549,21 @@ banner
 }
 
 .banner-area {
-  padding: 327px 0px 150px;
+  
+  padding-right: 00px;
+  padding-bottom: 50px;
   text-align: center;
 }
 .banner-area h6 {
   margin-bottom: 20px;
   margin-left: 5px;
+}
+.breaking-news {
+  margin-top: 170px;
+  font-weight: 600;
+}
+.news{
+	color: skyblue !important;
 }
 .banner-area h2 {
   margin-bottom: 20px;
@@ -1259,6 +1266,7 @@ Pricing
   background: rgba(247, 247, 247, 0.9);
   block-size: 300px;
   padding-bottom: 60px !important;
+  text-align:center;
 }
 #section-pricing .pricing-block i {
   font-size: 16px;
@@ -1839,7 +1847,7 @@ Responsive
   }
 
   .pricing-btn {
-    margin-bottom: 40px;
+    margin-bottom: 5%;
   }
 
   .cta-img .img-2 {
@@ -2255,6 +2263,8 @@ Responsive
 .side-title {
   color: rgb(1, 1, 43);
   font-size: 1.45rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
   /*text-align: right;*/
 }
 
@@ -2283,12 +2293,6 @@ Responsive
   font-size: 2.75rem;
 }
 
-
-/* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
-.faq_area {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
 @media (max-width: 767px) {
   /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
@@ -2455,5 +2459,5 @@ Responsive
 }
 
 .big-date{
-  color: rgb(113 0 78);
+  color: greenyellow;
 }

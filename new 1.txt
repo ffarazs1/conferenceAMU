@@ -73,3 +73,165 @@ Department address
 
 15. Contact us
 Write Computer Science name and dummy contact numbers.
+
+
+
+
+-------------
+[10:40 AM, 5/21/2021] Sajid sir: 
+1. The content of each tab must be in single line.
+For example, conference topics must be in single line. You may reduce the font size.
+
+2. In About
+EIC 2021
+Department of Computer Science
+Aligarh Muslim University 
+
+3. Special sessions 
+Add blockchain 
+Change Machine Intelligence to Machine Learning 
+
+4. The content of main page must be arranged as the tab orders (tabs on top).
+
+5. Paper Submission shold not be directed linked to easy chair. First, it must go to another page (designed by you) and then provide easyChair link there.  Because, we need to add some content there.
+
+6. If interested, you and saud(My phd student) can also work together.
+
+Thanks
+
+[10:42 AM, 5/21/2021] Sajid sir: About Conference 👇 (Paste this)
+[10:42 AM, 5/21/2021] Sajid sir: The International Conference on Emerging Computation Intelligence (EIC 2021) will be held at Aligarh Muslim University, Aligarh, Uttar Pradesh India, during December 18-19, 2021. This conference is meant for researchers all over the globe interested in the areas of optimization, artificial intelligence, computational intelligence, machine learning methods/ algorithms, evolutionary computation, Fuzzy logic, signal processing theory and methods, block chain and applications to cloud computing, fog computing, Internet of Things, smart cities, wireless sensor networks, various disorders and diseases etc. Other applications of machine learning and computational intelligent techniques are also welcome.
+
+[10:44 AM, 5/21/2021] Sajid sir: About Department 👇
+
+[10:46 AM, 5/21/2021] Sajid sir: Department of Computer Science, AMU is one of the oldest and pioneer departments of Computer Science in India. It came into existence in the year 1971 with the installation of IBM1130 Computing System, under the umbrella of Computer Centre and later blossomed into an independent department known as "Department of Computer Science" in the year 1988. Presently, this department offers various courses like Ph.D., M.C.A., P.G.E.D.P., P.G.D.C.P. and B.Sc. (Hons.) Computer Applications. The syllabi for these courses are designed by keeping under consideration the requirement of time as well as the demand of the IT industry. Students from both undergraduate and postgraduate courses have been able to secure a place in IT companies, like TCS, Accenture, Infosys, IBM, JK Techno soft, Info system, NIC, Wipro, Bharti Telesoft, and many more.
+
+[10:46 AM, 5/21/2021] Sajid sir: About University 👇
+
+[10:46 AM, 5/21/2021] Sajid sir: Aligarh Muslim University is a public central university in Aligarh, U.P., India. It was originally established by Sir Syed Ahmad Khan as the Muhammadan Anglo-Oriental College in 1875. Muhammadan Anglo-Oriental College became Aligarh Muslim University in 1920, following the Aligarh Muslim University Act. The university campus spans 467.6 hectares in the city of Aligarh, located about 130 kms away from New Delhi, the capital of India.  At present, the university now boasts almost 30,000 students, 1,400 teachers and 6,000 non-teaching staff on its roll. It has 13 faculties comprising a wide spectrum of academic disciplines, 103 departments, 13 centers and offers about 325 courses. The University has laboratories equipped with modern and sophisticated instrumen…
+
+[10:48 AM, 5/21/2021] Sajid sir: You may create/design separate page for each tab. 
+Or if you arrange on one page, then follow the order of tabs.
+
+[10:51 AM, 5/21/2021] Sajid sir: Please keep in mind one thing-
+The content of every page or tab is most like to be updated later. So, it must be dynamic.
+
+
+There are three committees in Conference 
+A. Organizing committee 
+B. Advisory committee 
+C. Technical Program Committee 
+ 
+
+A. The members of the organizing committee are as follows-
+
+1. CHIEF PATRON
+Image
+Prof. (Dr.) Tariq Mansoor
+Hon’ble Vice-Chancellor
+Aligarh Muslim University, Aligarh 
+ 
+
+2. PATRON 
+Photo
+Prof. Qazi Mazhar Ali
+Dean, Faculty of Science
+Aligarh Muslim University, Aligarh 
+ 
+
+3. CO-PATRON
+image
+Prof. Aasim Zafar
+Chairperson, Department of Computer Science
+Aligarh Muslim University, Aligarh 
+ 
+
+4. Honorary Chairs (Renowned Experts Prof. form our/other Universities)
+Photos for all
+Prof. A. K. Saini
+Prof. Nesar Ahmad
+Prof. Qamrul Hasan Ansari
+Prof. Nasib Singh Gill
+Prof. Muhammad Abulaish
+Prof. Mohad. Nafees Ansari
+Prof. Md. Rizwan Beg
+
+ 
+
+5. General Chair
+image
+Dr. Mohammad Sajid
+ 
+
+6. Organizing Chair(s) 
+image
+Prof. M. Ubaidullah Bokhari, AMU
+Dr. Suhel Mustajab
+Dr. Arman Rasool Faridi
+
+7. Technical Chair 
+Image
+Dr. Swaleha Zubair
+Dr. Shafiqul Abedin
+Dr. Faisal Anwer
+
+
+8. Publicity Chair 
+Image
+Prof. Tamanna Siddiqui
+Mr. Faraz Masood
+
+9. Publication Chair
+Image
+Prof. Mohammad Ubaidullah Bokhari
+
+ 
+
+10. FINANCE CHAIR
+Image
+Mr. Shahid Masood
+
+ 
+
+11. REGISTRATION CHAIR
+Image
+Dr. Mohammad Nadeem 
+
+
+12. Local Organizing Chair
+Image
+Dr. Arman Rasool Faridi
+
+ 
+
+
+B. The Tentative ADVISORY COMMITTEE is as follows-
+
+<li class="list-group-item">Prof. Mohammad Ashraf, AMU</li>
+<li class="list-group-item">Prof. M. N. Hoda,BVICAM </li>
+<li class="list-group-item">Prof. M.M. Sufiyan Beg, AMU</li>
+<li class="list-group-item">Prof. Deo Prakash Vidyarthi, JNU</li>
+<li class="list-group-item">Prof. M. Sarosh Umar, AMU</li>
+<li class="list-group-item">Prof. Khurram Mustafa, JMI</li>
+<li class="list-group-item">Prof. T. V. Vijay Kumar, JNU</li>
+<li class="list-group-item">Prof. P. K. Mishra, BHU</li>
+<li class="list-group-item">Prof. Vivek Kumar Singh, BHU</li>
+<li class="list-group-item">Prof. Naveen Kumar, DU</li>
+<li class="list-group-item">Prof. Abdul Wahid, MANNU</li>
+<li class="list-group-item">Prof. Raees Ahmad Khan, BBAU</li>
+<li class="list-group-item">Dr. Zahid Raza, JNU</li>
+
+ 
+
+C. The members of Technical Program Committee are as follows-
+
+<li class="list-group-item">Dr. Parvez Mahmood Khan</li>
+<li class="list-group-item">Dr. Dinesh Kumar</li>
+<li class="list-group-item">Dr. Jagendra Singh</li>
+<li class="list-group-item">Dr. Chetan Dudhagara</li>
+<li class="list-group-item">Dr. G. S. Thakur</li>
+<li class="list-group-item">Dr. Reva Mishra</li>
+<li class="list-group-item">Dr. Nadeem Akhtar</li>
+<li class="list-group-item">Dr. Abdus Samad</li>
+<li class="list-group-item">Mr. Tameem Ahmad</li>
+<li class="list-group-item">Dr. Suby Khanam</li>
