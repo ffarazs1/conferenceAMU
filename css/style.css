@@ -1541,7 +1541,9 @@ Post Navigation
 }
 
 .nav-link{
-font-size: 9px !important;
+font-size: 12px !important;
+letter-spacing: -0.1px !important;
+padding-right: .1rem!important;
 }
 
 .dropdown-item{
