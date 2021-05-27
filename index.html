@@ -1692,7 +1692,7 @@ setInterval(function() {
 							<a class="dropdown-item" href="index.html#technicalCommittee">Technical Committee</a> </div>
 						</li>
 						<li class="nav-item"> 
-							<a class="nav-link" href="index.html#importantDates">Important Dates</a> 
+							<a class="nav-link single-link" href="index.html#importantDates">Important Dates</a> 
 						</li>
 						
 						<li class="nav-item dropdown"> 
@@ -1716,10 +1716,10 @@ setInterval(function() {
 								<a class="dropdown-item tracks"  data-toggle="collapse" href="#collapse6" aria-expanded="false" aria-controls="collapse1" id="applications">Applications</a> 
 							</div>
 						</li>
-						<li class="nav-item"> <a class="nav-link" href="index.html#submission-section">Paper Submission</a> </li>
-						<li class="nav-item"> <a class="nav-link" href="index.html#registration-section">Registration</a> </li>
-						<li class="nav-item"> <a class="nav-link" href="index.html#venue-section">Venue</a> </li>
-						<li class="nav-item"> <a class="nav-link" href="index.html#contact-section">Contact Us</a> </li>
+						<li class="nav-item single-link"> <a class="nav-link" href="index.html#submission-section">Paper Submission</a> </li>
+						<li class="nav-item single-link"> <a class="nav-link" href="index.html#registration-section">Registration</a> </li>
+						<li class="nav-item single-link"> <a class="nav-link" href="index.html#venue-section">Venue</a> </li>
+						<li class="nav-item single-link"> <a class="nav-link" href="index.html#contact-section">Contact Us</a> </li>
 					</ul>
 				</div>
 			</div>
@@ -1880,7 +1880,10 @@ setInterval(function() {
 					document.getElementById('applications-collapse').scrollIntoView();
 				}
 			});
-			$('.navbar-nav>li>a').on('click', function(){
+			$('.navbar-nav>li>div>.dropdown-item').on('click', function(){
+				$('.navbar-collapse').collapse('hide');
+			});
+			$('.single-link').on('click', function(){
 				$('.navbar-collapse').collapse('hide');
 			});
 		</script>
