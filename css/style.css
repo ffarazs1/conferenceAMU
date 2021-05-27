@@ -146,7 +146,7 @@ Common
 }
 
 html {
-	scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 .mb-30 {
   margin-bottom: 30px;
