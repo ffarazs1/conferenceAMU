@@ -2022,6 +2022,7 @@ Responsive
   #section-countdown {
     padding-top: 80px;
     padding-bottom: 0px;
+	background-color: rgba(255,255,255,0.5);
   }
 
   .countdown {
@@ -2458,7 +2459,8 @@ Responsive
 }
 
 .bg-bob{
-  background: #092116 !important
+  background: #092116 !important;
+  opacity: 0.8;
 }
 
 
@@ -2520,3 +2522,23 @@ html {
 }
 .panel-default > .panel-heading-custom {
 background: #ff0000; color: #fff; }
+
+.nav-content-part{
+	font-size:14px !important;
+    letter-spacing: 0.5px !important;
+    padding-right: 3rem!important;
+	
+}
+.navinew{
+text-align:center;
+}
+.navinew li {
+display:inline;
+}
+.navinew a {
+text-decoration:none; 
+padding:0 30px; /* variable width */
+color:crimson !important;
+font-weight: bold;
+
+}
