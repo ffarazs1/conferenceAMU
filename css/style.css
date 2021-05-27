@@ -309,6 +309,9 @@ header
   padding: 5px 18px;
   border-radius: 50px;
 }
+.fixed-top {
+    z-index: 10000;
+}
 
 @media (min-width: 768px) {
   .top-nav-collapse {
