@@ -2511,3 +2511,9 @@ html {
     margin-right: 0;
   }
 }
+.heading-listings{
+	padding-top:6px;
+	line-height: 40px;
+}
+.panel-default > .panel-heading-custom {
+background: #ff0000; color: #fff; }
