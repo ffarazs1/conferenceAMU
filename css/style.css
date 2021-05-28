@@ -2537,8 +2537,6 @@ display:inline;
 }
 .navinew a {
 text-decoration:none; 
-padding:0 30px; /* variable width */
 color:crimson !important;
 font-weight: bold;
-
 }
