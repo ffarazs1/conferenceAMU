@@ -487,11 +487,12 @@ header
 }*/
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  /*padding-right: 1.4rem;*/
+  padding-right: 1rem;
+  padding-left: 1rem;
   color: #222222;
   font-weight: 600;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .navbar-expand-lg.onepage-nav .navbar-nav .nav-link {
@@ -567,7 +568,7 @@ banner
   font-weight: 600;
 }
 .news{
-	color: skyblue !important;
+	color: #007bff !important;
 }
 .banner-area h2 {
   margin-bottom: 20px;
@@ -1547,7 +1548,7 @@ Post Navigation
 .nav-link{
 font-size: 16px !important;
 letter-spacing: -0.7px !important;
-padding-right: .1rem!important;
+/*padding-right: .1rem!important;*/
 }
 
 .dropdown-item{
@@ -2540,4 +2541,8 @@ display:inline;
 text-decoration:none; 
 color:crimson !important;
 font-weight: bold;
+}
+
+.nav-item :hover{
+  background-color: thistle;
 }
